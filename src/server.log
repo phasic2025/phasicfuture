@@ -1,0 +1,12 @@
+[91m[1mERROR: [22m[39mLoadError: UndefVarError: `GlobalSignalSystem` not defined in `Main`
+Suggestion: check for spelling errors or missing imports.
+Stacktrace:
+ [1] top-level scope
+[90m   @[39m [90m~/Documents/Phase1-v2PhasicExperimentTopologyMapping/[39m[90m[4mweb_neural_network_server.jl:611[24m[39m
+ [2] [0m[1minclude[22m[0m[1m([22m[90mmod[39m::[0mModule, [90m_path[39m::[0mString[0m[1m)[22m
+[90m   @[39m [90mBase[39m [90m./[39m[90m[4mBase.jl:306[24m[39m
+ [3] [0m[1mexec_options[22m[0m[1m([22m[90mopts[39m::[0mBase.JLOptions[0m[1m)[22m
+[90m   @[39m [90mBase[39m [90m./[39m[90m[4mclient.jl:317[24m[39m
+ [4] [0m[1m_start[22m[0m[1m([22m[0m[1m)[22m
+[90m   @[39m [90mBase[39m [90m./[39m[90m[4mclient.jl:550[24m[39m
+in expression starting at /home/o2/Documents/Phase1-v2PhasicExperimentTopologyMapping/web_neural_network_server.jl:611
