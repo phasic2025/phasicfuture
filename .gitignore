@@ -1,0 +1,51 @@
+# Logs
+*.log
+logs/
+
+# Dependencies
+deps/
+
+# Build files
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+/coverage/
+
+# Local development
+.local/
+
+# System Files
+.DS_Store
+
+# Julia specific
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Manifest files (except project)
+Manifest.toml
+test/Manifest.toml
+
+# Local development files
+.local/
+
+# Temporary files
+*.tmp
+*~
+
+# Build artifacts
+/build/
+
+# Documentation build
+/docs/build/

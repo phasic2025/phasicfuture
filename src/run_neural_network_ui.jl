@@ -19,7 +19,7 @@ catch
 end
 
 println("\nLoading neural network UI...")
-include("NEURAL_NETWORK_UI.jl")
+include("ui/NEURAL_NETWORK_UI.jl")
 
 println("\n" * "=" ^ 70)
 println("Starting Neural Network Monitor...")
